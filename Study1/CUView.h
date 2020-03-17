@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  CUView.h
 //  Study1
 //
 //  Created by 屈亮 on 2020/3/17.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface CUView : UIView
 
 @end
 
+NS_ASSUME_NONNULL_END
